@@ -288,14 +288,14 @@ spawn(function()
             ImageButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
             ImageButton.BorderSizePixel = 0
             ImageButton.Size = UDim2.new(0, 100, 0, 100)
-            ImageButton.Image = Image
-            ImageButton.HoverImage = "http://www.roblox.com/asset/?id=3229099135"
+            ImageButton.Image = "https://yt3.ggpht.com/Hl3osVhKkZdJqu8MzPV5HIGQkKc3MEniURqGyUe5L7bF8kedpKAkwfiECnZ9GeHRxdweZhkgQg=s600-c-k-c0x00ffffff-no-rj-rp-mo"
+            ImageButton.HoverImage = "https://www.roblox.com/catalog/8191492129/abdo"
             
             ImageButton.MouseButton1Click:Connect(function()
                 game:GetService("StarterGui"):SetCore("SendNotification",{
-                    Title = "HOHO ADS", -- Required
+                    Title = "abdo", -- Required
                     Text = "Ads copied to your clipboard!",
-                    Icon = Image
+                    Icon = "https://yt3.ggpht.com/Hl3osVhKkZdJqu8MzPV5HIGQkKc3MEniURqGyUe5L7bF8kedpKAkwfiECnZ9GeHRxdweZhkgQg=s600-c-k-c0x00ffffff-no-rj-rp-mo"
                 })
                 setclipboard(Link)
             end)
@@ -332,7 +332,7 @@ else
 	notify.New("Please join discord.gg/hohohub to see what game r supported by us!", 60)
 end
 -- if _G["HoHo Hub Auto Bounty V3"] or _G["Fumo Blox Fruit - HoHo Hub Kaitun V3"] then return end
--- local path = "loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HohoV2/main/ScriptLoad.lua'))()"
+-- local path = "loadstring(game:HttpGet('https://raw.githubusercontent.com/abdo838/HohoV2/main/ScriptLoad.lua'))()"
 -- if getgenv().Key then
 -- 	path = "getgenv().Key = '"..getgenv().Key.."'\n"..path
 -- end
